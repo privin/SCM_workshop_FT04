@@ -24,7 +24,16 @@ public class TotalCashButtonListener implements ActionListener {
     public TotalCashButtonListener(MaintenanceController mc) {
         mctrl = mc;
     }
+    
+    /**
+ *
+ *
+ * @version 5.0 19/09/2016
+ * @author Srishti
+ */
     public void actionPerformed(ActionEvent e) {
         mctrl.getTotalCash();
+        mctrl.getTotalCoin();
+        mctrl.displayCoin();
     }
 }
