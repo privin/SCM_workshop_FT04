@@ -20,6 +20,9 @@ import sg.edu.nus.iss.vmcs.util.*;
  *
  * @version 3.0 5/07/2003
  * @author Olivo Miotto, Pang Ping Li
+ * 
+ * @ver 4.1 30/09/2016
+ * @author SAmruddhi Joshi
  */
 
 public class MaintenanceController {
@@ -159,6 +162,8 @@ public class MaintenanceController {
             return;
         }
 
+        mpanel.initCollectCash();// ver 4.1
+        mpanel.initTotalCash(); //ver 4.1
         mpanel.setActive(MaintenancePanel.DIALOG, true);
 
     }
